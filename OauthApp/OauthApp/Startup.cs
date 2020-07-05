@@ -17,6 +17,8 @@ namespace OauthApp
     {
         public void Configuration(IAppBuilder app)
         {
+            app.MapSignalR();
+
             ConfigureAuth(app);
             
             GlobalConfiguration.Configure(WebApiConfig.Register);

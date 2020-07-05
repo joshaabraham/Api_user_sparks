@@ -1,6 +1,8 @@
-﻿using System;
+﻿using OauthApp.Hubs;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http.Headers;
 using System.Web.Http;
 
 namespace OauthApp
@@ -19,6 +21,15 @@ namespace OauthApp
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+
+            Global.LogMessage = ChatHub.PostToClient;
+            config.Formatters.JsonFormatter.SupportedMediaTypes.Add(new MediaTypeHeaderValue("text/html"));
+        }
+
+        public class Global
+        {
+            public delegate void DelLogMessage(string data);
+            public static DelLogMessage LogMessage;
         }
     }
 }

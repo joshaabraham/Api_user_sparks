@@ -1,17 +1,29 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Web.Http;
+using static OauthApp.WebApiConfig;
 
 namespace OauthApp.Controllers
 {
     public class ValuesController : ApiController
     {
+
         // GET api/values
-        public IEnumerable<string> Get()
+        public IEnumerable Get()
         {
+            Global.LogMessage("Data from Controller");
             return new string[] { "value1", "value2" };
         }
+
+        // GET api/values/5  
+        public string Get(string id)
+        {
+            Global.LogMessage("Request param : " + id);
+            return "value";
+        }
+
 
         //This resource is For all types of role
         [Authorize(Roles = "SuperAdmin, Admin, User")]
