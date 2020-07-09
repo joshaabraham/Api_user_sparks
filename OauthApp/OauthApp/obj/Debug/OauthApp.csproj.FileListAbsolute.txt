@@ -206,3 +206,9 @@ E:\c_sharp_projets\OAuth_user_api\Api_user_sparks\OauthApp\OauthApp\obj\Debug\Oa
 E:\c_sharp_projets\OAuth_user_api\Api_user_sparks\OauthApp\OauthApp\obj\Debug\OauthApp.csproj.CopyComplete
 E:\c_sharp_projets\OAuth_user_api\Api_user_sparks\OauthApp\OauthApp\obj\Debug\OauthApp.dll
 E:\c_sharp_projets\OAuth_user_api\Api_user_sparks\OauthApp\OauthApp\obj\Debug\OauthApp.pdb
+E:\c_sharp_projets\OAuth_user_api\Api_user_sparks\OauthApp\OauthApp\bin\Microsoft.AspNet.SignalR.Core.dll
+E:\c_sharp_projets\OAuth_user_api\Api_user_sparks\OauthApp\OauthApp\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+E:\c_sharp_projets\OAuth_user_api\Api_user_sparks\OauthApp\OauthApp\bin\Microsoft.AspNet.SignalR.Core.pdb
+E:\c_sharp_projets\OAuth_user_api\Api_user_sparks\OauthApp\OauthApp\bin\Microsoft.AspNet.SignalR.Core.xml
+E:\c_sharp_projets\OAuth_user_api\Api_user_sparks\OauthApp\OauthApp\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+E:\c_sharp_projets\OAuth_user_api\Api_user_sparks\OauthApp\OauthApp\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
